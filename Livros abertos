@@ -1,0 +1,88 @@
+<?php  
+
+if (isset($_POST['submit']));
+print_r("Livro")
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Biblio Em Abertos</title>
+    <style>
+
+
+       button{
+        background-color: dodgerblue;
+        border:none;
+        padding:10px;
+        width: 10%;
+        border-radius: 10px;
+        color:white;
+        font-size: 15px;
+        width: 150px
+    }
+    button:hover{
+        background-color: deepskyblue;
+        cursor: pointer;
+        } 
+       
+        div{
+      background-color: rgba(0, 0, 0, 0.3);
+      border:none;
+      color:white;
+   }
+
+    </style>
+  
+</head>
+<body>
+    <div class="box">
+        <form action="">
+             <fieldset>
+                 <legend><b>Livros disponiveis</b></legend>
+                 <br>
+                 <div class="livro1">
+                    <img src="_capas_livros/biblioteca-da-meia-noite-min.jpg "name="Livro1"width="150" height="200"id="biblio-m" class="inputTitulo"required>
+                    <label for="biblioteca-da-meia-noite">  </label> 
+                    <br>
+                    <h6>biblioteca-da-meia-noite </h6><button>Devolver</button>
+                    <br><br>
+                    <hr>
+                 </div>
+                 <div class="Livro2">
+                    <img src="_capas_livros/lado-feio-do-amor-min.jpg" name="Livro2"width="150" height="200"id="lado-feio" class="inputTitulo"required>
+                    <label for="lado-feio-do-amor"> </label>
+                    <br>
+                    <h6>Lado feio do Amor</h6><button>Devolver</button>
+                    <br><br>
+                    <hr>
+                 </div>
+                 <div class="livro3">
+                    <img src="_capas_livros/tudo-e-rio-min.jpg" name="Livro3"width="150" height="200" id="tudo-rio" class="inputTitulo"required>
+                    <label for="tudo-e-rio">  </label>
+                    <br>
+                    <h6>Tudo é Rio</h6><button>Devolver</button>
+                    <br><br>
+                    <hr>
+                 </div>
+                 <div class="livro4">
+                    <img src="_capas_livros/verity-min.jpg" name="Livro4"width="150" height="200" id="verity" class="inputTitulo"required>
+                    <label for="verity-min"> </label>
+                    <br>
+                    <h6>verity</h6><button>Devolver</button>
+                    <br><br>
+                    <hr>
+                 </div><div class="Livro5">
+                    <img src="_capas_livros/vespera-min.jpg" name="Livro5"width="150" height="200" id="vespera" class="inputTitulo"required>
+                    <label for="vespera-min"> </label>
+                    <br>
+                    <h6>vespera</h6><button>Devolver</button>
+                    <hr>
+                 </div>
+<fieldset>
+</form>    
+</body>
+</html>
