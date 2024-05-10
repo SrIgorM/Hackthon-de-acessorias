@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Biblio Em Abertos</title>
+    <style>
+        /* estilos gerais */
+        button {
+            background-color: dodgerblue;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            width: 150px;
+            cursor: pointer; /* todo o codigo abaixo a base foi minha com alguns acompanhamentos no youtube */
+        }
+
+        button:hover {
+            background-color: deepskyblue;
+        }
+
+        fieldset {
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        .livro-container {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .livro-container img {
+            width: 150px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .livro-container h6 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <form action=""> 
+        <fieldset>
+            <legend>Livros disponíveis</legend> 
+            
+            <div class="livro-container">
+                <img src="_capas_livros/biblioteca-da-meia-noite-min.jpg" alt="Biblioteca da Meia Noite">
+                <h6>Biblioteca da Meia Noite</h6>
+                <button>Devolver</button>
+            </div>
+
+            <div class="livro-container">
+                <img src="_capas_livros/lado-feio-do-amor-min.jpg" alt="Lado Feio do Amor">
+                <h6>Lado Feio do Amor</h6>
+                <button>Devolver</button>
+            </div>
+
+            <div class="livro-container">
+                <img src="_capas_livros/tudo-e-rio-min.jpg" alt="Tudo é Rio">
+                <h6>Tudo é Rio</h6>
+                <button>Devolver</button>
+            </div>
+
+            <div class="livro-container">
+                <img src="_capas_livros/verity-min.jpg" alt="Verity">
+                <h6>Verity</h6>
+                <button>Devolver</button>
+            </div>
+
+            <div class="livro-container">
+                <img src="_capas_livros/vespera-min.jpg" alt="Véspera">
+                <h6>Véspera</h6>
+                <button>Devolver</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
